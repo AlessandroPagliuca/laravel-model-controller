@@ -93,5 +93,13 @@ main {
         }
     }
 
+    .link-movie {
+        transition: font-size 0.3s ease;
+
+        &:hover {
+            font-size: 19px;
+        }
+    }
+
 
 }
