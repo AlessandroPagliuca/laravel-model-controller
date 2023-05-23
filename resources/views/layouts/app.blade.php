@@ -18,9 +18,11 @@
 <body>
     @include('partials.header')
     <main>
-        @yield('content')
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            @yield('content')
+
+        </div>
     </main>
-    @include('partials.footer')
 </body>
 
 </html>
