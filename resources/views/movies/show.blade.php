@@ -2,7 +2,13 @@
 
 @section('content')
     <section class="conatiner">
-        <h1> {{ $movie->title }} </h1>
-        <img src="{{ $movie->image }}" alt="{{ $movie->title }}">
+
+        <div class="card-c92">
+            <img src="{{ $movie->image }}" alt="{{ $movie->title }}">
+        </div>
+        <h4 class="text-danger py-2"> {{ $movie->title }} </h4>
+
+
+
     </section>
 @endsection
